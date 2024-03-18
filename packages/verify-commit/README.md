@@ -2,6 +2,12 @@
 
 一个简单的 commit message 校验工具
 
+## 库的依赖介绍
+| terminal-link 
+在终端创建可以点击的链接
+| picocolors
+在终端控制颜色与格式
+
 ## 安装与使用
 
 ### 使用 `simple-git-hooks` 运行

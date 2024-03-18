@@ -8,7 +8,7 @@ import { readFileSync } from 'node:fs'
 import colors from 'picocolors'
 import terminalLink from 'terminal-link'
 
-const msgPath = process.argv[2]
+const msgPath = process.argv[2] //本项目所在的路径
 const msg = readFileSync(msgPath, 'utf-8').trim()
 
 const commitRE =
