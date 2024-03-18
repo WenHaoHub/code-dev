@@ -1,0 +1,40 @@
+{
+  "name": "code-dev/verify-commit",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "git 提交校验",
+  "keywords": [
+    "git",
+    "commit",
+    "message",
+    "commit-message",
+    "verify-commit",
+    "commit-msg"
+  ],
+  "homepage": "https://github.com/WenHaoHub/code-dev#readme",
+  "bugs": {
+    "url": "https://github.com/WenHaoHub/code-dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WenHaoHub/code-dev.git"
+  },
+  "license": "ISC",
+  "author": "wenhao",
+  "main": "./index.js",
+  "bin": {
+    "dev-verify-commit": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.0",
+    "terminal-link": "^3.0.0"
+  }
+}
