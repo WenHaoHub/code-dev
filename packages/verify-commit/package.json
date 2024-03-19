@@ -1,6 +1,6 @@
 {
   "name": "@whdev/verif-commit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git提交校验",
   "main": "index.js",
   "type": "module",
