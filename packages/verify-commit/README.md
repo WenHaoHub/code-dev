@@ -62,6 +62,5 @@ npx husky add .husky/commit-msg 'npx dev-verify-commit $1'
 ## 相关链接
 
 - [vue — verify-commit-msg.js | GitHub](https://github.com/vuejs/vue/blob/main/scripts/verify-commit-msg.js)
-- [Git 提交规范 | 茂茂物语](https://maomao.fe-mm.com/workflow/style-guide#git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83)
 - [simple-git-hooks | GitHub](https://github.com/toplenboren/simple-git-hooks)
 - [husky | GitHub](https://github.com/typicode/husky)

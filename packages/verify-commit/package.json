@@ -1,8 +1,12 @@
 {
-  "name": "code-dev/verify-commit",
-  "type": "module",
+  "name": "@whdev/verif-commit",
   "version": "1.0.0",
-  "description": "git 提交校验",
+  "description": "git提交校验",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "verif-commit": "bin/index.js"
+  },
   "keywords": [
     "git",
     "commit",
@@ -10,6 +14,14 @@
     "commit-message",
     "verify-commit",
     "commit-msg"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": [
+    "bin",
+    "index.js"
   ],
   "homepage": "https://github.com/WenHaoHub/code-dev#readme",
   "bugs": {
@@ -19,20 +31,11 @@
     "type": "git",
     "url": "git+https://github.com/WenHaoHub/code-dev.git"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wh",
   "license": "ISC",
-  "author": "wenhao",
-  "main": "./index.js",
-  "bin": {
-    "dev-verify-commit": "bin/index.js"
-  },
-  "files": [
-    "bin",
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
   "dependencies": {
     "picocolors": "^1.0.0",
     "terminal-link": "^3.0.0"

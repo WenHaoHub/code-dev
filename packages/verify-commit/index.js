@@ -1,5 +1,5 @@
 /**
- * 基于 vue 项目中的 verify-commit-msg.js 修改
+ * 基于 vue 项目中的 verify-commit-msg.js 进行二次修改修改
  * https://github.com/vuejs/vue/blob/main/scripts/verify-commit-msg.js
  * https://github.com/vuejs/vue/blob/main/.github/COMMIT_CONVENTION.md
  */
