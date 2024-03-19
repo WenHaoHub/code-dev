@@ -1,11 +1,11 @@
 {
   "name": "@whdev/verif-commit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "git提交校验",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "whdev-verif-commit": "bin/index.js"
+    "whdev-verify-commit": "bin/index.js"
   },
   "keywords": [
     "git",
