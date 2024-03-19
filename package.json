@@ -27,7 +27,7 @@
   "prettier": "@femm/prettier",
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged --quiet",
-    "commit-msg": "npx dev-verify-commit $1"
+    "commit-msg": "npx @whdev/verify-commit $1"
   },
   "lint-staged": {
     "*.{js,jsx,tsx,vue,css,scss,less,md}": [

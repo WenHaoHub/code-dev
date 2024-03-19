@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "verif-commit": "bin/index.js"
+    "whdev-verif-commit": "bin/index.js"
   },
   "keywords": [
     "git",

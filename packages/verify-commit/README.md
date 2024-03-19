@@ -1,4 +1,4 @@
-# @femm/verify-commit
+# @whdev/verify-commit
 
 一个简单的 commit message 校验工具
 
@@ -13,22 +13,22 @@
 ### 使用 `simple-git-hooks` 运行
 
 ```sh
-pnpm add -D @femm/verify-commit simple-git-hooks
+pnpm add -D @whdev/verify-commit simple-git-hooks
 # OR
-npm i -D @femm/verify-commit simple-git-hooks
+npm i -D @whdev/verify-commit simple-git-hooks
 ```
 
 #### 添加配置项到 `package.json`
 
 ```sh
 # 使用 npx + bin 运行
-npm pkg set simple-git-hooks.commit-msg='npx dev-verify-commit $1'
+npm pkg set simple-git-hooks.commit-msg='npx @whdev/verify-commit $1'
 
 # OR 使用 pnpm + bin 运行
-npm pkg set simple-git-hooks.commit-msg='pnpm dev-verify-commit $1'
+npm pkg set simple-git-hooks.commit-msg='pnpm @whdev/verify-commit $1'
 
 # OR 使用 node 运行
-npm pkg set simple-git-hooks.commit-msg='node ./node_modules/@femm/verify-commit/index.js $1'
+npm pkg set simple-git-hooks.commit-msg='node ./node_modules/@whdev/verify-commit/index.js $1'
 ```
 
 #### 注册 `git-hooks`
@@ -48,15 +48,15 @@ npm pkg set scripts.prepare="npx simple-git-hooks"
 ### 使用 `husky` 运行
 
 ```sh
-pnpm dlx husky-init && pnpm add -D @femm/verify-commit
+pnpm dlx husky-init && pnpm add -D @whdev/verify-commit
 # OR
-npx husky-init && npm i -D @femm/verify-commit
+npx husky-init && npm i -D @whdev/verify-commit
 ```
 
 #### 注册 `git-hooks`
 
 ```sh
-npx husky add .husky/commit-msg 'npx dev-verify-commit $1'
+npx husky add .husky/commit-msg 'npx @whdev/verify-commit $1'
 ```
 
 ## 相关链接
