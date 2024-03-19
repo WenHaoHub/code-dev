@@ -22,10 +22,10 @@ npm i -D @whdev/verify-commit simple-git-hooks
 
 ```sh
 # 使用 npx + bin 运行
-npm pkg set simple-git-hooks.commit-msg='npx @whdev/verify-commit $1'
+npm pkg set simple-git-hooks.commit-msg='npx whdev-verify-commit $1'
 
 # OR 使用 pnpm + bin 运行
-npm pkg set simple-git-hooks.commit-msg='pnpm @whdev/verify-commit $1'
+npm pkg set simple-git-hooks.commit-msg='pnpm whdev-verify-commit $1'
 
 # OR 使用 node 运行
 npm pkg set simple-git-hooks.commit-msg='node ./node_modules/@whdev/verify-commit/index.js $1'
@@ -56,7 +56,7 @@ npx husky-init && npm i -D @whdev/verify-commit
 #### 注册 `git-hooks`
 
 ```sh
-npx husky add .husky/commit-msg 'npx @whdev/verify-commit $1'
+npx husky add .husky/commit-msg 'npx whdev-verify-commit $1'
 ```
 
 ## 相关链接
